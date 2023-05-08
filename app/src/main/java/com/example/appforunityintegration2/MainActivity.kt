@@ -1,8 +1,10 @@
 package com.example.appforunityintegration2
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.appforunityintegration2.databinding.ActivityMainBinding
+import com.unity3d.player.UnityPlayerActivity
 
 class MainActivity : AppCompatActivity() {
     private var threadFlag = false
@@ -10,15 +12,23 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater).also { setContentView (it.root) }
 
         binding.startThreadBtn.setOnClickListener {
             threadFlag = !threadFlag
             startTread()
         }
+
+        binding.openUnityAppBtn.setOnClickListener {
+            openUnityActivity()
+        }
     }
 
+    private fun openUnityActivity() {
+        val i = Intent(this, UnityPlayerActivity::class.java)
+        startActivity(i)
+        finish()
+    }
     private fun startTread() {
         Thread {
             while (threadFlag) {
@@ -29,3 +39,17 @@ class MainActivity : AppCompatActivity() {
         }.start()
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
