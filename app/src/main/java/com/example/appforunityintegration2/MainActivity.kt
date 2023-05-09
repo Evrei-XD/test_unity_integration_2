@@ -15,8 +15,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater).also { setContentView (it.root) }
 
         binding.startThreadBtn.setOnClickListener {
-            threadFlag = !threadFlag
-            startTread()
+//            threadFlag = !threadFlag
+//            startTread()
+//            PluginActivity.ShowToast()
+//            TestClass.myVariable2 = 3
         }
 
         binding.openUnityAppBtn.setOnClickListener {
@@ -34,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             while (threadFlag) {
                 System.err.println("Tread")
                 //TODO делать что-то из библиотеки
+
                 Thread.sleep(1000)
             }
         }.start()
