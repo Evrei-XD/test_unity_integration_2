@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.appforunityintegration2.databinding.ActivityMainBinding
 import com.unity3d.player.UnityPlayerActivity
 
+
 class MainActivity : AppCompatActivity() {
     private var threadFlag = false
     private lateinit var binding: ActivityMainBinding
