@@ -1,0 +1,995 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683887629085207, "dur":33013, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683887629118340, "dur":450, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683887629118810, "dur":1296, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683887629120116, "dur":27286669, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683887656406790, "dur":786869, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683887657193681, "dur":495277, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683887657688976, "dur":1820576, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683887659509579, "dur":1277249, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683887660786909, "dur":8455, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683887660795365, "dur":1109, "ph":"X", "name": "Tundra",  "args": { "detail":"SaveScanCache" }}
+,{ "pid":12345, "tid":1, "ts":1683887629118789, "dur":1335, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683887629120127, "dur":20603, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683887629141398, "dur":300, "ph":"X", "name": "WriteText",  "args": { "detail":"ihup/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":1, "ts":1683887629141862, "dur":556, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/i9lisi2r8mo41.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887629142427, "dur":966, "ph":"X", "name": "WriteText",  "args": { "detail":"x6ly/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":1, "ts":1683887629143423, "dur":1110, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/xs1j1agn0qpl0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887629144542, "dur":1544, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/n0x7x84t505s1.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887629146093, "dur":1471, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/tmy89et1zsho1.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887629147569, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\tmy89et1zsho1.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887629147624, "dur":12180, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\tmy89et1zsho1.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887629159825, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Posix\\ReaderWriterLockImpl.h" }}
+,{ "pid":12345, "tid":1, "ts":1683887629160063, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Posix\\NetworkAccessHandlerStub.h" }}
+,{ "pid":12345, "tid":1, "ts":1683887629160498, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Socket.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887629160580, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Posix\\MutexImpl.h" }}
+,{ "pid":12345, "tid":1, "ts":1683887629160714, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\StackTrace.h" }}
+,{ "pid":12345, "tid":1, "ts":1683887629159811, "dur":1239, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683887629147567, "dur":13484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/l0crwatrd2kc.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887629161078, "dur":1231432, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/l0crwatrd2kc.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887630392564, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\5iyb06k5zuhc0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887630392620, "dur":1873, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\5iyb06k5zuhc0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887630394500, "dur":587, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683887630392561, "dur":2526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/k1kzfjm453jd.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887630395116, "dur":820316, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/k1kzfjm453jd.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887631215524, "dur":1971, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\a4pc67y7otqk0.lump.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887631217662, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\System.Globalization\\Generated\\CultureInfoTablesNet_4_0.h" }}
+,{ "pid":12345, "tid":1, "ts":1683887631217503, "dur":557, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683887631215474, "dur":2587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/153hsquhftvs.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887631218093, "dur":916885, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/153hsquhftvs.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887632135072, "dur":11258, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\extra\\gc.c" }}
+,{ "pid":12345, "tid":1, "ts":1683887632146405, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\libatomic_ops\\src\\atomic_ops\\generalize-small.h" }}
+,{ "pid":12345, "tid":1, "ts":1683887632147230, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\libatomic_ops\\src\\atomic_ops\\generalize-arithm.h" }}
+,{ "pid":12345, "tid":1, "ts":1683887632147347, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\win32_threads.c" }}
+,{ "pid":12345, "tid":1, "ts":1683887632147840, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\os_dep.c" }}
+,{ "pid":12345, "tid":1, "ts":1683887632149026, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\include\\private\\gc_priv.h" }}
+,{ "pid":12345, "tid":1, "ts":1683887632149203, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\include\\private\\gcconfig.h" }}
+,{ "pid":12345, "tid":1, "ts":1683887632146380, "dur":2928, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683887632135022, "dur":14287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 ihup/ffm59sf0mh7d.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887632149372, "dur":2396020, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"ihup/ffm59sf0mh7d.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887634545455, "dur":811, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887634546268, "dur":1517, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887634547791, "dur":221, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683887634545453, "dur":2560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/15hk5gzst3dw.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887634548060, "dur":6263898, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/15hk5gzst3dw.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887640812026, "dur":661, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887640812688, "dur":1736, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887640814434, "dur":327, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683887640812023, "dur":2739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/ft805dz1gkyl.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887640814796, "dur":5905186, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/ft805dz1gkyl.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887646720049, "dur":716, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__36.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887646720766, "dur":1457, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__36.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887646722230, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683887646720047, "dur":2411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/mui1da7jwj8v.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887646722526, "dur":5223956, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/mui1da7jwj8v.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887651946555, "dur":1065, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__21.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887651947621, "dur":1741, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__21.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1683887651949369, "dur":236, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683887651946552, "dur":3054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/68msktbdcw6n.o" }}
+,{ "pid":12345, "tid":1, "ts":1683887651949672, "dur":5243820, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/68msktbdcw6n.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887629118862, "dur":1278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887629120140, "dur":20602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887629141837, "dur":584, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/ogu26xwts87k2.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887629142430, "dur":749, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/ankmt5c67ror0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887629143187, "dur":1289, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/a4pc67y7otqk0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887629144491, "dur":1265, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/n0x7x84t505s0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887629145762, "dur":1657, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/mg204d48vik31.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887629147426, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\mg204d48vik31.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887629147502, "dur":11475, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\mg204d48vik31.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887629159276, "dur":472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\c-api\\Directory-c-api.h" }}
+,{ "pid":12345, "tid":2, "ts":1683887629159837, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\Internal\\VerifyPlatformEnvironment.h" }}
+,{ "pid":12345, "tid":2, "ts":1683887629159976, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\c-api\\Console.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887629158984, "dur":1205, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887629147424, "dur":12766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/fns9t0xg1bk1.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887629160219, "dur":1049912, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/fns9t0xg1bk1.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887630210228, "dur":721, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\fzngb22tb4u70.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887630210956, "dur":223, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887630210177, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/oczac59emzk8.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887630211205, "dur":432507, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/oczac59emzk8.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887630643762, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\sswg02joatc10.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887630643814, "dur":2334, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\sswg02joatc10.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887630646155, "dur":591, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887630643759, "dur":2988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/hnieb5k1gyoy.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887630646777, "dur":1168373, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/hnieb5k1gyoy.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887631815198, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\ankmt5c67ror0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887631815255, "dur":1786, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\ankmt5c67ror0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887631817047, "dur":398, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887631815196, "dur":2250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/uupm0iepxgdl.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887631817478, "dur":901417, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/uupm0iepxgdl.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887632718945, "dur":592, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887632719538, "dur":1116, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887632720661, "dur":232, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887632718942, "dur":1951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/t8jauentjjk3.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887632720931, "dur":3500057, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/t8jauentjjk3.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887636221061, "dur":543, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887636221604, "dur":1117, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887636222729, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887636221057, "dur":1899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/1zuaihhlt8fz.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887636222998, "dur":3856615, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/1zuaihhlt8fz.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887640079688, "dur":530, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887640080219, "dur":1322, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887640081550, "dur":211, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887640079685, "dur":2077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/8jnyl12qxov2.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887640081808, "dur":3345346, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/8jnyl12qxov2.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887643427224, "dur":484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__8.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887643427709, "dur":918, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__8.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887643428634, "dur":228, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887643427221, "dur":1642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/frbg052e2n9c.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887643428912, "dur":4335446, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/frbg052e2n9c.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887647764439, "dur":689, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__33.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887647765129, "dur":1307, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__33.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887647766444, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887647764435, "dur":2246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/zyagt5vplryh.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887647766748, "dur":5228591, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/zyagt5vplryh.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887652995414, "dur":646, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__19.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887652996061, "dur":1176, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__19.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683887652997247, "dur":241, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683887652995412, "dur":2077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/z0sz7rye098r.o" }}
+,{ "pid":12345, "tid":2, "ts":1683887652997537, "dur":4690802, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/z0sz7rye098r.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887629118850, "dur":1279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887629120135, "dur":176, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887629120311, "dur":20426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887629142417, "dur":681, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/ogu26xwts87k5.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887629143130, "dur":1217, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/i9lisi2r8mo40.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887629144356, "dur":1321, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/5iyb06k5zuhc0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887629145685, "dur":1565, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/mg204d48vik30.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887629147265, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\mg204d48vik30.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887629147319, "dur":7408, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\mg204d48vik30.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887629154875, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\il2cpp-config-api.h" }}
+,{ "pid":12345, "tid":3, "ts":1683887629155532, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ErrorCodes.h" }}
+,{ "pid":12345, "tid":3, "ts":1683887629155590, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\c-api\\File-c-api.h" }}
+,{ "pid":12345, "tid":3, "ts":1683887629154734, "dur":995, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887629147252, "dur":8478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/wb1ynmxb4hya.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887629155765, "dur":1008578, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/wb1ynmxb4hya.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887630164397, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\ojvq0vpn998x0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887630164454, "dur":1029, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\ojvq0vpn998x0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887630165533, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\System\\System.Net.NetworkInformation\\MacOsIPInterfaceProperties.h" }}
+,{ "pid":12345, "tid":3, "ts":1683887630165492, "dur":476, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887630164395, "dur":1573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/nqzois0ycgs2.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887630166008, "dur":71923, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/nqzois0ycgs2.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887630237978, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\n0x7x84t505s3.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887630238030, "dur":2230, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\n0x7x84t505s3.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887630240267, "dur":616, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887630237976, "dur":2909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/41qh0fhjtfzz.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887630240915, "dur":823398, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/41qh0fhjtfzz.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887631064361, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\xs1j1agn0qpl0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887631064423, "dur":1217, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\xs1j1agn0qpl0.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887631065647, "dur":391, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887631064359, "dur":1680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/5hsp4dboube7.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887631066071, "dur":1082331, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/5hsp4dboube7.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887632148447, "dur":371, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887632148819, "dur":828, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887632149653, "dur":210, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887632148445, "dur":1418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/8e5dpxmrgtuj.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887632149894, "dur":2177244, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/8e5dpxmrgtuj.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887634327211, "dur":826, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887634328038, "dur":1544, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887634329589, "dur":220, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887634327209, "dur":2601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/tpkipymq4tut.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887634329869, "dur":5431406, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/tpkipymq4tut.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887639761353, "dur":460, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887639761814, "dur":1281, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887639763104, "dur":272, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887639761349, "dur":2028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/9r7e6gjp1qci.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887639763442, "dur":3515239, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/9r7e6gjp1qci.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887643278743, "dur":896, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887643279640, "dur":1409, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887643281056, "dur":228, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887643278741, "dur":2544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/4fxj5305f0x2.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887643281332, "dur":648824, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/4fxj5305f0x2.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887643930231, "dur":658, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__5.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887643930890, "dur":1419, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__5.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887643932319, "dur":269, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887643930228, "dur":2361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/8nknk7tls94u.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887643932765, "dur":5609449, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/8nknk7tls94u.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887649542286, "dur":752, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__31.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887649543039, "dur":1371, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__31.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887649544419, "dur":230, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887649542283, "dur":2366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/t333xm3uffbf.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887649544716, "dur":5554574, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/t333xm3uffbf.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887655099367, "dur":637, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__17.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887655100005, "dur":1185, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__17.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683887655101198, "dur":225, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683887655099364, "dur":2060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/dd5u723itjgt.o" }}
+,{ "pid":12345, "tid":3, "ts":1683887655101497, "dur":4407950, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/dd5u723itjgt.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887629118889, "dur":1258, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887629120148, "dur":20592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887629141614, "dur":243, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/ogu26xwts87k3.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887629142089, "dur":286, "ph":"X", "name": "WriteText",  "args": { "detail":"4qqi/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":4, "ts":1683887629142389, "dur":704, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/q26brg5yyl1i0.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887629143101, "dur":1035, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/hw4uo26oy8z44.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887629144145, "dur":1237, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/ktjh55u3x3ep0.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887629145406, "dur":1467, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/st7i29nbuf4r2.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887629146884, "dur":2830, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/p0hnz6bmhp423.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887629149719, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\p0hnz6bmhp423.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887629149812, "dur":11171, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\p0hnz6bmhp423.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887629160990, "dur":426, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887629149717, "dur":11700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/9i4imamnqukt.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887629161440, "dur":1090484, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/9i4imamnqukt.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887630251971, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\n0x7x84t505s1.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887630252025, "dur":1731, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\n0x7x84t505s1.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887630253765, "dur":530, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887630251969, "dur":2327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/i7oostia05we.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887630254326, "dur":1004840, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/i7oostia05we.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887631259213, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\hw4uo26oy8z44.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887631259270, "dur":1054, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\hw4uo26oy8z44.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887631260332, "dur":390, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887631259211, "dur":1511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/qrb956o66fsr.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887631260751, "dur":79064, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/qrb956o66fsr.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887631339866, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\pdfalxwdqg4a0.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887631339924, "dur":373, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\pdfalxwdqg4a0.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887631340304, "dur":109, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887631339864, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/clik0fzbdleh.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887631340454, "dur":544057, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/clik0fzbdleh.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887631884564, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\ogu26xwts87k0.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887631884618, "dur":1110, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\ogu26xwts87k0.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887631885735, "dur":431, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887631884561, "dur":1606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/mnsjqwslqdna.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887631886198, "dur":1525310, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/mnsjqwslqdna.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887633411558, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887633411627, "dur":235, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887633411868, "dur":245, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887633411555, "dur":558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/r0cya0sjl7x3.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887633412218, "dur":511377, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/r0cya0sjl7x3.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887633923666, "dur":510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887633924177, "dur":1201, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887633925389, "dur":235, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887633923663, "dur":1961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/ze08jtxc9met.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887633925682, "dur":3538015, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/ze08jtxc9met.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887637463760, "dur":520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887637464281, "dur":1173, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887637465462, "dur":238, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887637463757, "dur":1943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/y4080ju66s68.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887637465758, "dur":3444286, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/y4080ju66s68.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887640910114, "dur":771, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887640910886, "dur":1709, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887640912603, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887640910111, "dur":2730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/jqy6k7vljygt.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887640912883, "dur":6041120, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/jqy6k7vljygt.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887646954075, "dur":616, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__35.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887646954693, "dur":1105, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__35.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887646955806, "dur":245, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887646954071, "dur":1980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/lmyktuqlshrg.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887646956130, "dur":4717285, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/lmyktuqlshrg.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887651673490, "dur":980, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__22.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887651674472, "dur":1726, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__22.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683887651676206, "dur":222, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683887651673486, "dur":2944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/7g7848rbgyn3.o" }}
+,{ "pid":12345, "tid":4, "ts":1683887651676511, "dur":5119006, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/7g7848rbgyn3.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887629119018, "dur":1152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887629120171, "dur":20564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887629142929, "dur":1183, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/ogu26xwts87k6.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887629144120, "dur":1266, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/bs10h1mv483n0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887629145409, "dur":1598, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/x1pcafg5u8os0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887629147013, "dur":2526, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/hw4uo26oy8z41.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887629149653, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\hw4uo26oy8z41.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887629149709, "dur":6986, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\hw4uo26oy8z41.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887629157019, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Win32\\Locale.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887629157589, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\Internal\\VerifyPlatformEnvironment.h" }}
+,{ "pid":12345, "tid":5, "ts":1683887629156705, "dur":1249, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887629149548, "dur":8407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/1dzxwcsthq9b.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887629157988, "dur":309977, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/1dzxwcsthq9b.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887629468020, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\x1pcafg5u8os0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887629468074, "dur":10537, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\x1pcafg5u8os0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887629478622, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\google\\sparsehash\\sparsetable.h" }}
+,{ "pid":12345, "tid":5, "ts":1683887629479144, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\google\\sparsehash\\internal\\densehashtable.h" }}
+,{ "pid":12345, "tid":5, "ts":1683887629479352, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\google\\sparsehash\\internal\\sparsehashtable.h" }}
+,{ "pid":12345, "tid":5, "ts":1683887629478620, "dur":2478, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887629468017, "dur":13082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/bsy6sb8rvg5j.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887629481144, "dur":2389401, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/bsy6sb8rvg5j.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887631870598, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\ogu26xwts87k5.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887631870654, "dur":1769, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\ogu26xwts87k5.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887631872430, "dur":533, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887631870596, "dur":2368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/h3pv26l67y2e.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887631872996, "dur":1277546, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/h3pv26l67y2e.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887633150596, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887633150697, "dur":267, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887633150971, "dur":244, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887633150593, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/xthliojmq4nx.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887633151260, "dur":603271, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/xthliojmq4nx.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887633754597, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887633754713, "dur":278, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887633754997, "dur":201, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887633754595, "dur":603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/r7ygzxsm3h2n.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887633755231, "dur":789360, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/r7ygzxsm3h2n.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887634544663, "dur":670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__5.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887634545334, "dur":1357, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__5.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887634546701, "dur":301, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887634544660, "dur":2343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/2d20pwfrx5ub.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887634547046, "dur":4138555, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/2d20pwfrx5ub.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887638685684, "dur":858, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887638686544, "dur":1985, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887638688537, "dur":242, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887638685681, "dur":3098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/qtpz054etclb.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887638688826, "dur":6816458, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/qtpz054etclb.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887645505353, "dur":625, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__4.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887645505979, "dur":1160, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__4.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887645507146, "dur":212, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887645505350, "dur":2008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/n8gz4xfopltb.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887645507435, "dur":5221014, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/n8gz4xfopltb.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887650728526, "dur":565, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__26.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887650729092, "dur":1164, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__26.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887650730264, "dur":229, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887650728523, "dur":1970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/zz1p0gf2s034.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887650730553, "dur":4712492, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/zz1p0gf2s034.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887655443111, "dur":1536, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__13.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887655444648, "dur":2195, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__13.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683887655446851, "dur":249, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683887655443109, "dur":3992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/luaecvgsgh0r.o" }}
+,{ "pid":12345, "tid":5, "ts":1683887655447165, "dur":5339563, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/luaecvgsgh0r.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887629119059, "dur":1261, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887629120320, "dur":20467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887629144531, "dur":1243, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/on3553en5p4j1.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887629145782, "dur":1403, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/iv272lif87we0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887629147193, "dur":9617, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/hw4uo26oy8z43.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887629156860, "dur":16999, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\hw4uo26oy8z43.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887629173873, "dur":546, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887629156814, "dur":17606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/7fkyzso19l60.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887629174458, "dur":453393, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/7fkyzso19l60.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887629627908, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\st7i29nbuf4r2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887629627973, "dur":316, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\st7i29nbuf4r2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887629628296, "dur":154, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887629627905, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/4ugpsuys6r74.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887629628497, "dur":591353, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/4ugpsuys6r74.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887630219947, "dur":1110, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\0w2qmoahroq10.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887630221064, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887630219896, "dur":1375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/9xg83mmes930.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887630221302, "dur":62306, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/9xg83mmes930.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887630283656, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\n0x7x84t505s2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887630283710, "dur":1549, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\n0x7x84t505s2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887630285267, "dur":473, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887630283654, "dur":2086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/1igzy7ifxzi5.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887630285771, "dur":2434040, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/1igzy7ifxzi5.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887632719863, "dur":184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887632720047, "dur":361, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887632720414, "dur":230, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887632719859, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/j3dmp2loxqcw.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887632720688, "dur":1046280, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/j3dmp2loxqcw.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887633767045, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887633767106, "dur":229, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887633767342, "dur":235, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887633767042, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/gtpaigwdio8o.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887633767623, "dur":539967, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/gtpaigwdio8o.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887634307664, "dur":841, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887634308507, "dur":1537, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887634310051, "dur":219, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887634307661, "dur":2609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/2asfubdouk5w.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887634310333, "dur":5008986, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/2asfubdouk5w.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887639319395, "dur":356, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887639319752, "dur":1075, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887639320834, "dur":207, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887639319392, "dur":1650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/u7a3lqxm4eo1.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887639321077, "dur":2444604, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/u7a3lqxm4eo1.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887641765756, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Mono.Security.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887641765846, "dur":302, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Mono.Security.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887641766156, "dur":250, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887641765752, "dur":655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/iyhepu2higv2.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887641766455, "dur":816177, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/iyhepu2higv2.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887642582698, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887642582860, "dur":348, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887642583215, "dur":242, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887642582695, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/qsxka5tctjh4.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887642583503, "dur":605921, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/qsxka5tctjh4.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887643189494, "dur":1029, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887643190524, "dur":1765, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887643192297, "dur":243, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887643189491, "dur":3053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/6ymcd97wnkwa.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887643192606, "dur":930421, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/6ymcd97wnkwa.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887644123097, "dur":265, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__43.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887644123363, "dur":595, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__43.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887644123965, "dur":229, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887644123095, "dur":1100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/mtrr6yn7oa38.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887644124241, "dur":2836439, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/mtrr6yn7oa38.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887646960739, "dur":681, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__34.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887646961421, "dur":1302, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__34.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887646962730, "dur":231, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887646960736, "dur":2225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/06uwdlcoptfx.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887646963022, "dur":3987911, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/06uwdlcoptfx.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887650951002, "dur":505, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__24.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887650951508, "dur":1196, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__24.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887650952711, "dur":239, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887650950999, "dur":1952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/t4ud5xm7mog2.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887650953013, "dur":4704834, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/t4ud5xm7mog2.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887655657909, "dur":764, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887655658674, "dur":1388, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683887655660071, "dur":245, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683887655657906, "dur":2410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/g5p6oz6uf7ot.o" }}
+,{ "pid":12345, "tid":6, "ts":1683887655660370, "dur":4529515, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/g5p6oz6uf7ot.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887629119100, "dur":1229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887629120329, "dur":20440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887629143472, "dur":1155, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/on3553en5p4j2.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887629144635, "dur":1239, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/n0x7x84t505s2.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887629145884, "dur":1641, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/tmy89et1zsho0.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887629147565, "dur":21860, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\tmy89et1zsho0.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887629169671, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Messages.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887629169967, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Posix\\ThreadLocalValueImpl.h" }}
+,{ "pid":12345, "tid":7, "ts":1683887629170058, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Generic\\EventImpl.h" }}
+,{ "pid":12345, "tid":7, "ts":1683887629169434, "dur":956, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887629147527, "dur":22863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/ih28u2unhm4h.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887629170431, "dur":1479479, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/ih28u2unhm4h.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887630649960, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\i9lisi2r8mo42.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887630650010, "dur":958, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\i9lisi2r8mo42.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887630650975, "dur":394, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887630649958, "dur":1411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/kvvcz5owoxmw.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887630651408, "dur":619126, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/kvvcz5owoxmw.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887631270623, "dur":654, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\v7mn2xxnstaz0.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887631271284, "dur":367, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887631270576, "dur":1075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/5p17c7v8hr5z.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887631271678, "dur":677783, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/5p17c7v8hr5z.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887631949547, "dur":280, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\zlib\\adler32.c" }}
+,{ "pid":12345, "tid":7, "ts":1683887631949872, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\zlib\\zlib.h" }}
+,{ "pid":12345, "tid":7, "ts":1683887631949870, "dur":93, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887631949504, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 4qqi/vpdpx1nrqflj.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887631950020, "dur":137023, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"4qqi/vpdpx1nrqflj.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887632087110, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\ogu26xwts87k3.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887632087161, "dur":2403, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\ogu26xwts87k3.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887632089883, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\vm\\Monitor.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887632089572, "dur":857, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887632087107, "dur":3322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/b14uzqpyf35p.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887632090483, "dur":3686303, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/b14uzqpyf35p.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887635776843, "dur":380, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887635777223, "dur":782, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887635778013, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887635776839, "dur":1402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/1tahj734pa9f.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887635778303, "dur":4571131, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/1tahj734pa9f.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887640349502, "dur":770, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887640350274, "dur":2443, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887640352725, "dur":251, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887640349499, "dur":3477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/2ogmqiawrc8z.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887640353041, "dur":5179295, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/2ogmqiawrc8z.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887645532418, "dur":772, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__39.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887645533192, "dur":1375, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__39.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887645534575, "dur":212, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887645532415, "dur":2373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/tx9tt8fd6xce.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887645534828, "dur":5328941, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/tx9tt8fd6xce.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887650863852, "dur":539, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__25.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887650864393, "dur":1255, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__25.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887650865655, "dur":206, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887650863849, "dur":2013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/eky1k704pcsl.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887650865930, "dur":4762099, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/eky1k704pcsl.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887655628100, "dur":446, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__10.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887655628548, "dur":1113, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__10.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683887655629671, "dur":235, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683887655628097, "dur":1810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/erjlww7y62v9.o" }}
+,{ "pid":12345, "tid":7, "ts":1683887655629961, "dur":3408304, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/erjlww7y62v9.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887629119138, "dur":1200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887629120338, "dur":20426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887629144028, "dur":1184, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/sswg02joatc10.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887629145220, "dur":1555, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/st7i29nbuf4r1.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887629146781, "dur":2087, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/p0hnz6bmhp422.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887629148880, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\p0hnz6bmhp422.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887629148963, "dur":18535, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\p0hnz6bmhp422.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887629167506, "dur":463, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887629148872, "dur":19097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/6zt0k2njue4y.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887629168000, "dur":1324956, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/6zt0k2njue4y.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887630493052, "dur":595, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\bs10h1mv483n0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887630493654, "dur":146, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887630493001, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/y19vzceym1vn.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887630493827, "dur":345111, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/y19vzceym1vn.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887630839034, "dur":1503, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\almims5zucv20.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887630840544, "dur":412, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887630838985, "dur":1972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/pmbpyb5zmclo.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887630840985, "dur":1090674, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/pmbpyb5zmclo.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887631931756, "dur":1163, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\ogu26xwts87k4.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887631932927, "dur":466, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887631931705, "dur":1689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/ekfd1yn2bjmk.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887631933426, "dur":2449991, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/ekfd1yn2bjmk.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887634383479, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887634383584, "dur":298, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887634383889, "dur":243, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887634383475, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/ierv62bosljy.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887634384188, "dur":761929, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/ierv62bosljy.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887635146188, "dur":1056, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__3.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887635147245, "dur":1880, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__3.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887635149134, "dur":234, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887635146185, "dur":3183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/gqewp7kvqf2c.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887635149439, "dur":5561926, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/gqewp7kvqf2c.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887640711440, "dur":703, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887640712144, "dur":1346, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887640713497, "dur":249, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887640711437, "dur":2309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/g1shqtf0kmf1.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887640713807, "dur":4390235, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/g1shqtf0kmf1.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887645104125, "dur":647, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__40.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887645104773, "dur":1373, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__40.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887645106157, "dur":213, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887645104123, "dur":2248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/fq0yq0eefwyq.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887645106421, "dur":4981239, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/fq0yq0eefwyq.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887650087731, "dur":689, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__30.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887650088421, "dur":1327, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__30.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887650089754, "dur":209, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887650087728, "dur":2235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/svjnd7mwbduz.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887650090024, "dur":5270879, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/svjnd7mwbduz.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887655360971, "dur":689, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__15.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887655361661, "dur":1270, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__15.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683887655362938, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683887655360968, "dur":2207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/7hyickbon7sq.o" }}
+,{ "pid":12345, "tid":8, "ts":1683887655363246, "dur":3492066, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/7hyickbon7sq.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887629119170, "dur":1176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887629120347, "dur":20391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887629141952, "dur":761, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/ogu26xwts87k4.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887629142735, "dur":1006, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/d858epsohq0t0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887629143754, "dur":1033, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/dyoc4jad8fih0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887629144798, "dur":1464, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/n0x7x84t505s3.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887629146271, "dur":1371, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/l6k21aifvmt00.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887629147651, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\l6k21aifvmt00.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887629147759, "dur":10671, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\l6k21aifvmt00.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887629158439, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Generic\\WaitObject.h" }}
+,{ "pid":12345, "tid":9, "ts":1683887629158660, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Baselib_Atomic.h" }}
+,{ "pid":12345, "tid":9, "ts":1683887629158728, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\Cpp\\CappedSemaphore.h" }}
+,{ "pid":12345, "tid":9, "ts":1683887629158832, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\BrokeredFileSystem.h" }}
+,{ "pid":12345, "tid":9, "ts":1683887629159233, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Initialize.h" }}
+,{ "pid":12345, "tid":9, "ts":1683887629159466, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Time.h" }}
+,{ "pid":12345, "tid":9, "ts":1683887629159755, "dur":923, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Generic\\BrokeredFileSystem.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887629158436, "dur":2263, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887629147645, "dur":13054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/itf8l506cfo5.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887629160790, "dur":1154457, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/itf8l506cfo5.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887630315334, "dur":746, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\on3553en5p4j1.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887630316087, "dur":306, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887630315289, "dur":1104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/lytc32vdmsaf.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887630316432, "dur":910518, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/lytc32vdmsaf.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887631227004, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\i9lisi2r8mo40.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887631227065, "dur":1392, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\i9lisi2r8mo40.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887631228464, "dur":465, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887631227002, "dur":1928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/etacwpsow1p7.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887631228966, "dur":933472, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/etacwpsow1p7.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887632162486, "dur":1015, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887632163502, "dur":1885, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887632165395, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887632162483, "dur":3140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/nz1p9n8td5i0.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887632165668, "dur":5216784, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/nz1p9n8td5i0.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887637382526, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Configuration.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887637382595, "dur":230, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Configuration.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887637382832, "dur":236, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887637382523, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/ei3cwz6rj1wz.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887637383110, "dur":522170, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/ei3cwz6rj1wz.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887637905355, "dur":575, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887637905931, "dur":1613, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887637907552, "dur":250, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887637905352, "dur":2451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/chd40uza02da.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887637907845, "dur":3789254, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/chd40uza02da.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887641697176, "dur":623, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887641697800, "dur":2012, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887641699975, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\Interop.h" }}
+,{ "pid":12345, "tid":9, "ts":1683887641699821, "dur":314, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887641697174, "dur":2961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/gx5fd3hute1g.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887641700176, "dur":4814882, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/gx5fd3hute1g.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887646515134, "dur":708, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__38.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887646515847, "dur":1342, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__38.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887646517198, "dur":227, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887646515131, "dur":2295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/sppd9sze2vvy.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887646517493, "dur":4709362, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/sppd9sze2vvy.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887651226927, "dur":788, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__23.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887651227716, "dur":1510, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__23.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683887651229235, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683887651226924, "dur":2549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/swaxki68imzm.o" }}
+,{ "pid":12345, "tid":9, "ts":1683887651229555, "dur":5177159, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/swaxki68imzm.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887629118937, "dur":1223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887629120161, "dur":20602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887629142615, "dur":1214, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/pdfalxwdqg4a0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887629143844, "dur":1287, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/i9lisi2r8mo42.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887629145139, "dur":1738, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/st7i29nbuf4r0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887629146888, "dur":2612, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/hw4uo26oy8z40.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887629149506, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\hw4uo26oy8z40.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887629149593, "dur":10040, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\hw4uo26oy8z40.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887629159817, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Win32\\LibraryLoader.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887629159642, "dur":740, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887629149504, "dur":10879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/i27mqyrokwnl.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887629160435, "dur":210791, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/i27mqyrokwnl.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887629371283, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\iv272lif87we0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887629371338, "dur":2683, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\iv272lif87we0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887629374030, "dur":481, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887629371279, "dur":3232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/rcxvg9srtdqb.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887629374548, "dur":834586, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/rcxvg9srtdqb.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887630209224, "dur":628, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\on3553en5p4j0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887630209859, "dur":200, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887630209175, "dur":884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/ifju1ux9pcuk.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887630210088, "dur":627842, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/ifju1ux9pcuk.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887630838028, "dur":698, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\q0tnabo3httr0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887630838734, "dur":306, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887630837977, "dur":1063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/hvgs4ydjzfhr.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887630839069, "dur":663371, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/hvgs4ydjzfhr.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887631502509, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\d858epsohq0t0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887631502585, "dur":1566, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\d858epsohq0t0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887631504158, "dur":478, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887631502506, "dur":2131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/o655r0t5yidy.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887631504673, "dur":1830327, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/o655r0t5yidy.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887633335051, "dur":205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887633335256, "dur":405, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887633335668, "dur":247, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887633335048, "dur":867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/9mpmvm9l1fb4.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887633335963, "dur":1065629, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/9mpmvm9l1fb4.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887634401657, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887634401793, "dur":287, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887634402087, "dur":233, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887634401654, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/k1chj50i5fe7.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887634402356, "dur":812230, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/k1chj50i5fe7.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887635214661, "dur":592, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__2.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887635215254, "dur":1170, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__2.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887635216431, "dur":205, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887635214658, "dur":1979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/vab89x6xnrqt.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887635216683, "dur":3637294, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/vab89x6xnrqt.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887638854043, "dur":570, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887638854614, "dur":1391, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887638856012, "dur":228, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887638854040, "dur":2200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/5dmblwqhqo9r.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887638856278, "dur":4022181, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/5dmblwqhqo9r.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887642878530, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887642878678, "dur":279, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887642878963, "dur":239, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887642878527, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/1w4rt1p1emg9.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887642879245, "dur":621156, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/1w4rt1p1emg9.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887643500471, "dur":726, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__7.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887643501198, "dur":1293, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__7.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887643502499, "dur":238, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887643500468, "dur":2270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/ub8rkwohzzxt.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887643502786, "dur":6590729, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/ub8rkwohzzxt.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887650093591, "dur":771, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__3.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887650094363, "dur":1530, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__3.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683887650095902, "dur":242, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683887650093588, "dur":2557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/m0wikizpljcw.o" }}
+,{ "pid":12345, "tid":10, "ts":1683887650096227, "dur":7512507, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/m0wikizpljcw.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887629118913, "dur":1242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683887629120155, "dur":20591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683887629142203, "dur":658, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/ogu26xwts87k0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887629142870, "dur":1092, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/v7mn2xxnstaz0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887629143972, "dur":1073, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/q0tnabo3httr0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887629145051, "dur":1483, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/y7vda2nnai0q0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887629146539, "dur":1730, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/p0hnz6bmhp420.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887629148316, "dur":10157, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\p0hnz6bmhp420.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887629158483, "dur":209, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Generic\\WaitObject.h" }}
+,{ "pid":12345, "tid":11, "ts":1683887629158694, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\utils\\NonCopyable.h" }}
+,{ "pid":12345, "tid":11, "ts":1683887629158910, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Posix\\PosixHelpers.h" }}
+,{ "pid":12345, "tid":11, "ts":1683887629159730, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\utils\\PathUtils.h" }}
+,{ "pid":12345, "tid":11, "ts":1683887629158480, "dur":1595, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683887629148272, "dur":11804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/k5r7cgpa141d.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887629160112, "dur":1158324, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/k5r7cgpa141d.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887630318528, "dur":625, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\n0x7x84t505s0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887630319160, "dur":308, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683887630318478, "dur":990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/foe6qlk63pgk.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887630319497, "dur":607903, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/foe6qlk63pgk.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887630927448, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\ogu26xwts87k1.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887630927501, "dur":3110, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\ogu26xwts87k1.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887630931298, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\include\\gc.h" }}
+,{ "pid":12345, "tid":11, "ts":1683887630930618, "dur":841, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683887630927446, "dur":4014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/p621r4qpmt34.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887630931511, "dur":6149081, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/p621r4qpmt34.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887637080643, "dur":468, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887637081112, "dur":1114, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887637082236, "dur":245, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683887637080640, "dur":1841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/m6pep1l4mj40.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887637082534, "dur":3298235, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/m6pep1l4mj40.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887640380841, "dur":714, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887640381556, "dur":1750, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887640383315, "dur":290, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683887640380838, "dur":2767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/1gw552txnark.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887640383641, "dur":4000184, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/1gw552txnark.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887644383916, "dur":529, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__42.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887644384446, "dur":1102, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__42.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887644385557, "dur":233, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683887644383912, "dur":1878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/ll7amj78k8lt.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887644385865, "dur":5815514, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/ll7amj78k8lt.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887650201449, "dur":564, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__29.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887650202014, "dur":1112, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__29.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887650203134, "dur":238, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683887650201447, "dur":1926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/62sigfov2e8m.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887650203435, "dur":5238457, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/62sigfov2e8m.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887655441965, "dur":867, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__14.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887655442833, "dur":1531, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__14.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683887655444372, "dur":240, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683887655441962, "dur":2650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/69d2r4upj5bb.o" }}
+,{ "pid":12345, "tid":11, "ts":1683887655444657, "dur":3889330, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/69d2r4upj5bb.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887629119203, "dur":1152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683887629120355, "dur":20450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683887629144719, "dur":1551, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/0w2qmoahroq10.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887629146276, "dur":1478, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/l6k21aifvmt01.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887629147765, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\l6k21aifvmt01.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887629147857, "dur":19372, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\l6k21aifvmt01.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887629167246, "dur":406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\WindowsRuntime.h" }}
+,{ "pid":12345, "tid":12, "ts":1683887629167812, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Internal\\Baselib_Lock_FutexBased.inl.h" }}
+,{ "pid":12345, "tid":12, "ts":1683887629168307, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Generic\\Thread.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887629167238, "dur":1275, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683887629147756, "dur":20757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/146isj1ba99v.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887629168550, "dur":1005883, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/146isj1ba99v.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887630174481, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\y7vda2nnai0q0.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887630174542, "dur":1384, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\y7vda2nnai0q0.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887630175933, "dur":305, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683887630174479, "dur":1759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/nlqirdhmbknf.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887630176268, "dur":1083661, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/nlqirdhmbknf.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887631260013, "dur":1083, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\ogu26xwts87k6.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887631261102, "dur":370, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683887631259969, "dur":1504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/0eh68kmb5so5.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887631261497, "dur":5640674, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/0eh68kmb5so5.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887636902232, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Xml.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887636902306, "dur":238, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Xml.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887636902550, "dur":226, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683887636902230, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/v2btex8b2thm.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887636902837, "dur":498036, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/v2btex8b2thm.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887637400948, "dur":680, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887637401629, "dur":1875, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887637403512, "dur":320, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683887637400945, "dur":2887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/jk4wgt839gis.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887637403864, "dur":4650978, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/jk4wgt839gis.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887642054928, "dur":382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887642055311, "dur":825, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887642056143, "dur":241, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683887642054925, "dur":1460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/vl2b4zgs1tr9.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887642056445, "dur":4492977, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/vl2b4zgs1tr9.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887646549495, "dur":884, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__37.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887646550380, "dur":1505, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__37.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887646551893, "dur":233, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683887646549492, "dur":2634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/79lptjlhz7jf.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887646552184, "dur":6692849, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/79lptjlhz7jf.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887653245095, "dur":670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__18.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887653245766, "dur":1342, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__18.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683887653247116, "dur":244, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683887653245093, "dur":2267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/elpbsikhxlx8.o" }}
+,{ "pid":12345, "tid":12, "ts":1683887653247421, "dur":5317449, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/elpbsikhxlx8.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887629119226, "dur":1138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887629120364, "dur":20425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887629144314, "dur":1232, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/0w2qmoahroq11.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887629145555, "dur":1531, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/9aa4fujvcbed0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887629147092, "dur":10195, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/hw4uo26oy8z42.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887629157296, "dur":12809, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\hw4uo26oy8z42.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887629170106, "dur":7817, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\hw4uo26oy8z42.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887629177931, "dur":512, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887629157290, "dur":21154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/4w9fykqxd6p6.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887629178476, "dur":270073, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/4w9fykqxd6p6.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887629448601, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\9aa4fujvcbed0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887629448657, "dur":760, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\9aa4fujvcbed0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887629449425, "dur":229, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887629448598, "dur":1056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/9fynpjgvnwar.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887629449688, "dur":1024247, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/9fynpjgvnwar.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887630473982, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\0w2qmoahroq11.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887630474040, "dur":1136, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\0w2qmoahroq11.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887630475182, "dur":315, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887630473980, "dur":1518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/chrq5ukiopkv.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887630475529, "dur":64416, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/chrq5ukiopkv.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887630539994, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\ktjh55u3x3ep0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887630540048, "dur":555, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\ktjh55u3x3ep0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887630540666, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\il2cpp-normalization-tables.h" }}
+,{ "pid":12345, "tid":13, "ts":1683887630540610, "dur":224, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887630539992, "dur":842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/g8svbbe9lwup.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887630540860, "dur":509409, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/g8svbbe9lwup.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887631050319, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\on3553en5p4j2.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887631050372, "dur":557, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\on3553en5p4j2.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887631050937, "dur":217, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887631050316, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/49kn9gwijmw5.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887631051186, "dur":885294, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/49kn9gwijmw5.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887631936574, "dur":1349, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\i9lisi2r8mo41.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887631937930, "dur":522, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887631936523, "dur":1929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/hcluxxqssh61.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887631938479, "dur":1042504, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/hcluxxqssh61.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887632981036, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887632981100, "dur":215, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887632981321, "dur":223, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887632981034, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/896p8727y0kq.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887632981592, "dur":483869, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/896p8727y0kq.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887633465528, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887633465586, "dur":226, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887633465818, "dur":236, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887633465525, "dur":530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/9csti5win2cd.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887633466097, "dur":543680, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/9csti5win2cd.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887634009837, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887634009897, "dur":211, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887634010114, "dur":226, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887634009834, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/uekka94mcbtg.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887634010366, "dur":474097, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/uekka94mcbtg.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887634484522, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__6.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887634484637, "dur":289, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__6.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887634484932, "dur":230, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887634484519, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/nt5o55to0t6u.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887634485193, "dur":985366, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/nt5o55to0t6u.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887635470629, "dur":390, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__1.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887635471021, "dur":729, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Unity.TextMeshPro__1.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887635471758, "dur":231, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887635470626, "dur":1364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/u2qrpiqzjp9d.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887635472055, "dur":4772116, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/u2qrpiqzjp9d.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887640244246, "dur":837, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887640245084, "dur":1889, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887640246983, "dur":240, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887640244243, "dur":2981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/n4ja6rotu0jj.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887640247289, "dur":4655145, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/n4ja6rotu0jj.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887644902498, "dur":536, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__41.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887644903035, "dur":1091, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__41.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887644904134, "dur":223, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887644902495, "dur":1862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/053m69sbikaa.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887644904403, "dur":5815359, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/053m69sbikaa.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887650719826, "dur":481, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__27.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887650720308, "dur":1168, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__27.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887650721484, "dur":194, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887650719823, "dur":1856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/07l6kwv0w2kk.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887650721740, "dur":4873799, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/07l6kwv0w2kk.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887655595617, "dur":437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__11.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887655596055, "dur":1108, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__11.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683887655597172, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683887655595614, "dur":1796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/z6m9b6lw9q7s.o" }}
+,{ "pid":12345, "tid":13, "ts":1683887655597455, "dur":3360596, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/z6m9b6lw9q7s.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887629119246, "dur":1127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683887629120373, "dur":20371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683887629143891, "dur":1042, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/ogu26xwts87k1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887629144941, "dur":1410, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/fzngb22tb4u70.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887629146370, "dur":1602, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/l6k21aifvmt02.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887629148014, "dur":9698, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\l6k21aifvmt02.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887629157725, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Baselib_Timer.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629157960, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\Cpp\\Time.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629158094, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Baselib_Atomic_Macros.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629158234, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Mutex.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629158525, "dur":211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Internal\\Baselib_Lock_FutexBased.inl.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629158739, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Internal\\Compiler\\Baselib_Atomic_Gcc_Patch.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629159019, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\COM.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629159114, "dur":249, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Internal\\Compiler\\Baselib_Atomic_Msvc.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629159493, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Generic\\SocketImpl.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629159669, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Generic\\SocketImpl.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887629159895, "dur":939, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Baselib_CountdownTimer.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629164580, "dur":1877, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\SocketBridge.h" }}
+,{ "pid":12345, "tid":14, "ts":1683887629157718, "dur":8785, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683887629147975, "dur":18529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/4nh1trzf6oqq.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887629166551, "dur":879939, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/4nh1trzf6oqq.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887630046537, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\st7i29nbuf4r1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887630046593, "dur":860, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\st7i29nbuf4r1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887630047460, "dur":349, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683887630046535, "dur":1274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/ljpemgyn9xle.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887630047838, "dur":2519757, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/ljpemgyn9xle.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887632567640, "dur":337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887632567978, "dur":782, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887632568766, "dur":221, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683887632567637, "dur":1351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/2jy1teuwah7g.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887632569027, "dur":4718177, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/2jy1teuwah7g.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887637287276, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Core.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887637287345, "dur":265, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System.Core.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887637287618, "dur":239, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683887637287272, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/12rvklgessrm.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887637287913, "dur":621322, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/12rvklgessrm.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887637909300, "dur":780, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887637910081, "dur":2118, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887637912207, "dur":263, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683887637909297, "dur":3174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/r19fllldxe2q.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887637912513, "dur":4570599, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/r19fllldxe2q.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887642483187, "dur":2272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887642485460, "dur":3278, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887642488747, "dur":230, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683887642483184, "dur":5793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/brgf1g8bftwz.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887642489046, "dur":12707926, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/brgf1g8bftwz.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887655197039, "dur":650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__16.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887655197690, "dur":1214, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__16.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683887655198912, "dur":238, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683887655197036, "dur":2114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/sx16rtplqv49.o" }}
+,{ "pid":12345, "tid":14, "ts":1683887655199195, "dur":4184984, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/sx16rtplqv49.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887629119268, "dur":1116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887629120384, "dur":20404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887629144901, "dur":1532, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/on3553en5p4j0.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887629146442, "dur":1639, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/u3ic885hiw130.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887629148086, "dur":222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\u3ic885hiw130.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887629148309, "dur":9361, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\u3ic885hiw130.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887629157824, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\OSX\\Process.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887629157952, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Process.h" }}
+,{ "pid":12345, "tid":15, "ts":1683887629157677, "dur":352, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887629148084, "dur":9945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/0bft4mpl70tr.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887629158058, "dur":430388, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/0bft4mpl70tr.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887629588503, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\st7i29nbuf4r0.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887629588562, "dur":3539, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\st7i29nbuf4r0.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887629592108, "dur":867, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887629588500, "dur":4476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/i0ewk8zjdi5j.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887629593024, "dur":1687244, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/i0ewk8zjdi5j.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887631280312, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887631280369, "dur":7770, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887631288185, "dur":465, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887631280309, "dur":8341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/5dxzkakdjps8.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887631288708, "dur":646945, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/5dxzkakdjps8.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887631935720, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\ogu26xwts87k2.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887631935771, "dur":1258, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\ogu26xwts87k2.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887631937037, "dur":473, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887631935718, "dur":1793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/8hucyirujnpv.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887631937538, "dur":2207964, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/8hucyirujnpv.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887634145559, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887634145800, "dur":558, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887634146365, "dur":264, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887634145556, "dur":1074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/nqv39krlx8gg.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887634146676, "dur":1854931, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/nqv39krlx8gg.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887636001685, "dur":494, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System__2.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887636002180, "dur":1115, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\System__2.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887636003303, "dur":218, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887636001682, "dur":1839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/mfyyxqviwwri.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887636003578, "dur":3230697, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/mfyyxqviwwri.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887639234351, "dur":517, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887639234869, "dur":1198, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887639236074, "dur":236, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887639234348, "dur":1962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/451u0gajmmsc.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887639236354, "dur":2954589, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/451u0gajmmsc.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887642191024, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887642191093, "dur":258, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887642191358, "dur":231, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887642191021, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/gdft0w4w7arf.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887642191647, "dur":545603, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/gdft0w4w7arf.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887642737325, "dur":245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887642737571, "dur":395, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887642737974, "dur":245, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887642737323, "dur":897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/tshzwvh91p0e.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887642738268, "dur":551721, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/tshzwvh91p0e.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887643290058, "dur":437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__9.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887643290496, "dur":1026, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__9.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887643291534, "dur":232, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887643290056, "dur":1711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/gzvwkljd6pqs.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887643291817, "dur":4483861, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/gzvwkljd6pqs.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887647775770, "dur":638, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__32.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887647776410, "dur":1209, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__32.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887647777626, "dur":199, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887647775768, "dur":2057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/ej7rdwhsi3my.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887647777889, "dur":5031063, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/ej7rdwhsi3my.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887652809025, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Assembly-CSharp_CodeGen.c" }}
+,{ "pid":12345, "tid":15, "ts":1683887652809081, "dur":239, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Assembly-CSharp_CodeGen.c" }}
+,{ "pid":12345, "tid":15, "ts":1683887652809327, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887652809022, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/d5esbgh70sf1.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887652809411, "dur":126990, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/d5esbgh70sf1.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887652936474, "dur":794, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__2.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887652937269, "dur":1527, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__2.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683887652938803, "dur":221, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683887652936471, "dur":2553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/1ktu48ksiv0c.o" }}
+,{ "pid":12345, "tid":15, "ts":1683887652939084, "dur":6565442, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/1ktu48ksiv0c.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887629118971, "dur":1194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887629120165, "dur":20568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887629143492, "dur":406, "ph":"X", "name": "WriteText",  "args": { "detail":"iz17/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":16, "ts":1683887629143907, "dur":1129, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/almims5zucv20.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887629145044, "dur":1561, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/ojvq0vpn998x0.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887629146612, "dur":2313, "ph":"X", "name": "MakeLump",  "args": { "detail":"x6ly/p0hnz6bmhp421.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887629148931, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\p0hnz6bmhp421.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887629149008, "dur":10754, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\p0hnz6bmhp421.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887629159828, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Internal\\Compiler\\Baselib_Atomic_Gcc.h" }}
+,{ "pid":12345, "tid":16, "ts":1683887629160086, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\Posix\\SocketImpl.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887629159770, "dur":655, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887629148929, "dur":11496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/3gjijupfyyn4.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887629160451, "dur":1774488, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/3gjijupfyyn4.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887630934988, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\dyoc4jad8fih0.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887630935043, "dur":891, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\dyoc4jad8fih0.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887630936117, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\System.Diagnostics\\Debugger.h" }}
+,{ "pid":12345, "tid":16, "ts":1683887630935941, "dur":535, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887630934986, "dur":1491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/8u9yrnhxvzwo.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887630936507, "dur":675446, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/8u9yrnhxvzwo.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887631612004, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"x6ly\\q26brg5yyl1i0.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887631612059, "dur":1434, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"x6ly\\q26brg5yyl1i0.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887631613947, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\char-conversions.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887631613542, "dur":692, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887631612002, "dur":2233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 x6ly/ilezu1jodn64.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887631614265, "dur":2378486, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"x6ly/ilezu1jodn64.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887633992799, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887633992853, "dur":226, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887633993087, "dur":233, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887633992796, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/osxp9by5tqxa.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887633993363, "dur":488949, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/osxp9by5tqxa.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887634482386, "dur":457, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.AndroidJNIModule.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887634482844, "dur":892, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\UnityEngine.AndroidJNIModule.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887634483744, "dur":237, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887634482382, "dur":1599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/wy8uyjjygojo.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887634484023, "dur":3370473, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/wy8uyjjygojo.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887637854565, "dur":780, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887637855346, "dur":2550, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887637857904, "dur":275, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887637854562, "dur":3617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/xwgsg4d82qpt.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887637858223, "dur":4826904, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/xwgsg4d82qpt.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887642685199, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887642685263, "dur":217, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887642685487, "dur":234, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887642685196, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/hagacjb83sjw.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887642685780, "dur":592124, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/hagacjb83sjw.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887643277972, "dur":329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887643278302, "dur":613, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887643278923, "dur":234, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887643277969, "dur":1188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/ffpb78fm7jam.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887643279190, "dur":554021, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/ffpb78fm7jam.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887643833276, "dur":703, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__6.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887643833980, "dur":1291, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__6.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887643835281, "dur":236, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887643833273, "dur":2244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/t3nb0g8ivxge.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887643835574, "dur":6639470, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/t3nb0g8ivxge.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887650475113, "dur":564, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__28.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887650475679, "dur":1159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__28.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887650476846, "dur":242, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887650475110, "dur":1979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/lnpu059xzqw3.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887650477153, "dur":4997324, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/lnpu059xzqw3.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887655474547, "dur":563, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__12.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887655475110, "dur":1167, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"C:\\Users\\pro\\AndroidStudioProjects\\Appforunityintegration2\\unityLibrary\\src\\main\\Il2CppOutputProject\\Source\\il2cppOutput\\Generics__12.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683887655476285, "dur":247, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683887655474545, "dur":1988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm32 iz17/kmqxrf0tcfjc.o" }}
+,{ "pid":12345, "tid":16, "ts":1683887655476576, "dur":3573366, "ph":"X", "name": "C_Android_arm32",  "args": { "detail":"iz17/kmqxrf0tcfjc.o" }}
+,{ "pid":12345, "tid":0, "ts":1683887660797872, "dur":2015, "ph":"X", "name": "ProfilerWriteOutput" }
+,
