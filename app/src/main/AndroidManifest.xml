@@ -13,7 +13,7 @@
         android:theme="@style/Theme.AppForUnityIntegration2"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.romans.appforunityintegration2.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +23,7 @@
         </activity>
         <activity android:name="com.unity3d.player.UnityPlayerActivity"/>
 
+        <service android:name="com.romans.appforunityintegration2.SumService"/>
     </application>
 
 </manifest>
