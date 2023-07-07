@@ -1,6 +1,6 @@
 include ':app'
 include ':unityLibrary'
 include ':launcher'
-include ':testLibrary'
+//include ':testLibrary'
 //include ':unitylibrary-debug'
 

@@ -22,7 +22,7 @@
         </activity>
         <activity android:name="com.unity3d.player.UnityPlayerActivity"/>
 
-        <service android:name="com.romans.appforunityintegration2.SumService"/>
+        <service android:name="com.romans.appforunityintegration2.DataTransferToService"/>
     </application>
 
 </manifest>

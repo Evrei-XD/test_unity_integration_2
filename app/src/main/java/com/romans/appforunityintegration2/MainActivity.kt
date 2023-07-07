@@ -1,10 +1,7 @@
 package com.romans.appforunityintegration2
 
-import android.app.Activity
 import android.content.*
 import android.os.Bundle
-import android.preference.PreferenceManager
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.appforunityintegration2.databinding.ActivityMainBinding
 import com.romans.myunitylibrary.*
@@ -76,7 +73,7 @@ class MainActivity : AppCompatActivity() {
         Thread {
             while (threadFlag) {
                 System.err.println("Tread")
-                startService(Intent(this@MainActivity, SumService::class.java).putExtra("length", 10))
+                startService(Intent(this@MainActivity, DataTransferToService::class.java).putExtra("length", 10))
                 Thread.sleep(2000)
             }
         }.start()

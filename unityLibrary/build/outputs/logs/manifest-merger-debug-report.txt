@@ -1,14 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:2:70-98
 		INJECTED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml
-	xmlns:tools
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:2:99-145
 	xmlns:android
 		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:2:11-69
 uses-feature#0x00030000
@@ -40,85 +38,85 @@ ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibra
 	android:name
 		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:7:17-80
 application
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:8:3-23:17
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:8:3-43:17
 	android:extractNativeLibs
 		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:8:16-48
 meta-data#unity.splash-mode
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:9:5-69
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:9:5-11:29
 	android:value
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:9:49-66
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:11:9-26
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:10:9-41
 meta-data#unity.splash-enable
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:10:5-74
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:12:5-14:32
 	android:value
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:10:51-71
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:14:9-29
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:10:16-50
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:13:9-43
 meta-data#unity.launch-fullscreen
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:11:5-78
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:15:5-17:32
 	android:value
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:17:9-29
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:11:16-54
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:16:9-47
 meta-data#unity.allow-resizable-window
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:12:5-84
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:18:5-20:33
 	android:value
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:12:60-81
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:20:9-30
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:12:16-59
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:19:9-52
 meta-data#notch.config
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:21:5-23:46
 	android:value
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:13:44-78
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:23:9-43
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:22:9-36
 meta-data#unity.auto-report-fully-drawn
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:24:5-26:32
 	android:value
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:14:61-81
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:26:9-29
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:14:16-60
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:25:9-53
 activity#com.romans.myunitylibrary.PluginActivity
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:15:5-22:16
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:27:5-42:16
 	android:screenOrientation
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:15:113-149
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:30:9-45
 	android:launchMode
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:15:150-181
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:31:9-40
 	android:hardwareAccelerated
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:15:399-434
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:34:9-44
 	android:exported
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:15:435-458
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:35:9-32
 	android:resizeableActivity
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:15:364-398
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:33:9-43
 	android:configChanges
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:15:182-363
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:32:9-190
 	android:theme
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:15:71-112
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:29:9-50
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:15:15-70
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:28:9-64
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:16:7-19:23
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:36:7-39:23
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:17:9-68
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:37:9-68
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:17:19-65
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:37:19-65
 action#android.intent.action.MAIN
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:18:9-61
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:38:9-61
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:18:17-58
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:38:17-58
 meta-data#unityplayer.UnityActivity
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:20:7-82
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:40:7-82
 	android:value
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:20:59-79
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:40:59-79
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:20:18-58
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:40:18-58
 meta-data#notch_support
-ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:21:7-70
+ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:41:7-70
 	android:value
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:21:47-67
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:41:47-67
 	android:name
-		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:21:18-46
+		ADDED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml:41:18-46
 uses-sdk
 INJECTED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\pro\AndroidStudioProjects\Appforunityintegration2\unityLibrary\src\main\AndroidManifest.xml

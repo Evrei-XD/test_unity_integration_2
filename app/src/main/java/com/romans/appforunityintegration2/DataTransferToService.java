@@ -1,15 +1,12 @@
 package com.romans.appforunityintegration2;
 
 import android.app.Service;
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.os.IBinder;
 
 import androidx.annotation.Nullable;
 
-public class SumService extends Service {
+public class DataTransferToService extends Service {
 
     private int length = 0, sum = 0;
 
@@ -18,21 +15,6 @@ public class SumService extends Service {
     public IBinder onBind(Intent intent) {
         return null;
     }
-
-//    private void test (MainActivity mainActivity) {
-//        IntentFilter intentFilter = new IntentFilter();
-//        intentFilter.addAction("Sum");
-//
-//        BroadcastReceiver receiver = new BroadcastReceiver() {
-//            @Override
-//            public void onReceive(Context context, Intent intent) {
-//                if (intent.getAction().equals("Sum")) {
-//
-//                }
-//            }
-//        };
-//        registerReceiver(receiver, intentFilter);
-//    }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
